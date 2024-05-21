@@ -12,7 +12,7 @@ public static void main(String[] args ){
       numero = scanner.nextInt();
 
       // Fazer loop para multiplicar os valores do fatorial
-      for (int i = numero; i == 1; --i){
+      for (int i = numero; i >1; --i){
         fat = fat * i;
         //fat *= i;
 
