@@ -17,6 +17,7 @@ public class VerificarObrigVoto {
        if ((idade >=16 && idade  <=17) || idade > 70) {
         System.out.println("Voto facutativo");
        }
+       scanner.close();
     }
 }
 
